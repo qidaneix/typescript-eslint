@@ -1,8 +1,11 @@
-import Vue from 'vue'
-import App from './App.vue'
+import 'normalize.css';
+import './style.scss';
+import print from './foo';
 
-Vue.config.productionTip = false
+print('hello world');
 
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
+const a = [1, 2, 3];
+
+class Person {
+  public old = 0;
+}
